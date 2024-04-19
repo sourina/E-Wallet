@@ -1,0 +1,11 @@
+.cardstack_container {
+  position: relative;
+  top: 350px;
+}
+/* .card {
+  position:relative;
+  margin-top: -250px;
+} */
+.active {
+  color: red;
+}

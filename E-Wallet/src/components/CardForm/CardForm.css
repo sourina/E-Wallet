@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karantina:wght@300;400;700&family=Katibeh&family=Kiwi+Maru&family=PT+Mono&display=swap");
+
+.form_container {
+  width: 382px;
+}
+
+label {
+  position: relative;
+  width: 251px;
+  height: 22px;
+  /* top: 419px; */
+  /* left: -56px; */
+  gap: 0px;
+  opacity: 0px;
+  font-family: PT Mono;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.44px;
+  text-align: left;
+}
+
+#cardNo_placeholder {
+  position: relative;
+  left: -148px;
+}
+#cardNum {
+  position: relative;
+  width: 382px;
+  height: 46px;
+  /* top: 10px;
+  left: 16px; */
+  gap: 0px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid black;
+}
+
+#name_placeholder {
+  position: relative;
+  left: -135px;
+  top: 10px;
+}
+#name {
+  position: relative;
+  width: 382px;
+  height: 46px;
+  top: 10px;
+  /* left: 16px; */
+  gap: 0px;
+  border-radius: 8px;
+  border: 1px solid black;
+  opacity: 0px;
+}
+
+#validity_placeholder {
+  position: relative;
+  left: -60px;
+  top: 10px;
+}
+#validity {
+  position: relative;
+  width: 175px;
+  height: 46px;
+  top: 45px;
+  left: -140px;
+  gap: 0px;
+  border-radius: 8px;
+  border: 1px solid black;
+  opacity: 0px;
+}
+
+#cvv_placeholder {
+  position: relative;
+  left: 123px;
+  top: -38px;
+}
+#cvv {
+  position: relative;
+  width: 175px;
+  height: 46px;
+  top: -5px;
+  left: 95px;
+  gap: 0px;
+  border-radius: 8px;
+  border: 1px solid black;
+  opacity: 0px;
+}
+
+#vendor_placeholder {
+  position: relative;
+  left: -165px;
+  /* top: -5px; */
+}
+#vendor {
+  position: relative;
+  width: 382px;
+  height: 46px;
+  /* top: -5px; */
+
+  gap: 0px;
+  border-radius: 8px;
+  border: 1px solid black;
+  opacity: 0px;
+}
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+#submit {
+  position: relative;
+  background-color: black;
+  color: white;
+  width: 382px;
+  height: 46px;
+  top: 20px;
+  left: 1px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  font-family: PT Mono;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24.64px;
+  text-align: center;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

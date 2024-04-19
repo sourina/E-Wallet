@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karantina:wght@300;400;700&family=Katibeh&family=Kiwi+Maru&family=PT+Mono&display=swap");
+
+.button {
+  position: static;
+  top: 380px;
+  left: 300px;
+  width: 382px;
+  height: 80px;
+  border-radius: 8px;
+  border: 1px;
+  opacity: 0px;
+  font-family: PT Mono;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24.64px;
+  text-align: center;
+}
+.heading {
+  position: relative;
+  left: -5px;
+  top: -200px;
+}
+h3 {
+  position: relative;
+  top: -200px;
+}
+
+.home_container {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}

@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karantina:wght@300;400;700&family=Katibeh&family=Kiwi+Maru&family=PT+Mono&display=swap");
+
+.card_container {
+  position: relative;
+  width: 382px;
+  height: 241px;
+  top: -18px;
+  left: 2px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  background-color: #d0d0d0;
+}
+
+#one {
+  background-color: orange;
+  background-image: url(../../assets/assets/vendor-bitcoin.svg);
+  background-repeat: no-repeat;
+  background-position: 85% 20%;
+}
+
+#two {
+  background-color: black;
+  color: white;
+  background-image: url(../../assets/assets/vendor-blockchain.svg);
+  background-repeat: no-repeat;
+  background-position: 85% 20%;
+}
+
+#three {
+  background-color: #8b58f9;
+  color: white;
+  background-image: url(../../assets/assets/vendor-evil.svg);
+  background-repeat: no-repeat;
+  background-position: 85% 20%;
+}
+
+#four {
+  background-color: red;
+  color: white;
+  background-image: url(../../assets/assets/vendor-ninja.svg);
+  background-repeat: no-repeat;
+  background-position: 85% 20%;
+}
+
+.logo_chip {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  top: 30px;
+  left: -140px;
+  gap: 0px;
+  opacity: 0.5px;
+}
+
+.card_no {
+  position: relative;
+  width: 350px;
+  height: 42px;
+  top: 20px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: PT Mono;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 32.48px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.cardHolder_placeholder {
+  position: relative;
+  width: 251px;
+  height: 16px;
+  top: 10px;
+  left: 25px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: PT Mono;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.44px;
+  text-align: left;
+}
+
+.cardHolder_name {
+  position: relative;
+  width: 251px;
+  height: 32px;
+
+  left: 25px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: PT Mono;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: left;
+}
+
+.card_validity {
+  position: relative;
+  width: 89px;
+  height: 16px;
+  top: -75px;
+  left: 265px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: PT Mono;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.44px;
+  text-align: right;
+}
+
+.card_validity_dt {
+  position: relative;
+  width: 89px;
+  height: 32px;
+  top: -85px;
+  left: 255px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: PT Mono;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: right;
+}
+
+.cardStack {
+  position: sticky;
+  margin-top: -200px;
+}
